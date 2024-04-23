@@ -1,5 +1,5 @@
 import express from "express";
-import { idGenerator } from "../utils.js";
+
 import {
   delteTask,
   getTasks,
@@ -7,8 +7,6 @@ import {
   updateTask,
 } from "../models/task/TaskModel.js";
 const router = express.Router();
-
-let fakeDb = [];
 
 //controllers
 
